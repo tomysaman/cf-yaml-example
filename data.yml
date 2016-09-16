@@ -1,0 +1,16 @@
+---
+# A simple testing record
+name: "Shaquille O'Neal"
+job: NBA Professional Basketball Player
+skill:
+    - Dunk
+    - Post move
+    - Blocking
+    - Scoring
+    - Low post domination
+retired: True
+bio: |
+    4 NBA Championship Rings
+    15 All Stars Selection
+    Whatever
+...
