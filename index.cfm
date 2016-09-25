@@ -8,15 +8,15 @@ ymlContent = fileRead(ymlFilePath);
 // they can point to individual jar file
 // or they can point to diretories (then all the jar files in the directories will be loaded)
 jarLoadPaths = [
-	'#expandPath("./jyaml-1.3.jar")#'
-	//, 'expandPath("./more_jar_class_here")'
+	expandPath("./jyaml-1.3.jar")
+	//, expandPath("./more_jar_class_here")
 ];
 javaloader = createObject("component", "javaloader.JavaLoader").init(jarLoadPaths);
 
 yaml = javaloader.create("org.ho.yaml.Yaml");
 //WriteDump(yaml);
 
-dataFile = CreateObject("java", "java.io.File").init( ymlFilePath );
+dataFile = createObject("java", "java.io.File").init( ymlFilePath );
 data = yaml.load(dataFile);
 
 // Access the data with [] notation, don't use the dot notation
