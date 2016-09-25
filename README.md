@@ -1,5 +1,5 @@
 # cf-yaml-example
-An CF/Lucee example of readding yaml file using jyaml.jar
+A CF/Lucee example of readding yaml file using jyaml.jar
 
 ## Requirements
 * jyaml.jar 
