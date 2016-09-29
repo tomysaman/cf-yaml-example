@@ -1,1 +1,51 @@
+# Files
+*~
+._*
+.cache
+*.codekit
 .DS_Store
+*.esproj
+.idea
+.project
+.sass-cache
+.settings
+settings.xml
+*.sublime-project
+*.sublime-workspace
+.svn
+Thumbs.db
+.tmproj
+web.config
+web.config.txt
+web.xml
+
+# Other files
+# *.json
+# *.less.css
+*.log
+*.zip
+
+# Folders
+/nbproject/
+/nbproject/private/
+/node_modules/
+*_notes/
+.sass-cache/
+
+# Other folders
+cflogs/
+compiled/
+demo/
+logs/
+mxunit/
+tests/
+temp/
+unitTests/
+
+# CF & Tomcat directories
+CFIDE/
+META-INF/
+WEB-INF/
+
+
+
