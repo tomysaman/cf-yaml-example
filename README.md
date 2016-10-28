@@ -22,7 +22,7 @@ dataFile = createObject("java", "java.io.File").init( expandPath("./data.yml") )
 data = yaml.load(dataFile);
 ```
 
-## Access the data structure with [ ] notation, . dotation won't work
+## Access the data structure with [ ] notation, . notation won't work
 ```javascript
 WriteDump( data["name"] );
 // This will throw error
