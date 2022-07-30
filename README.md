@@ -23,8 +23,8 @@ data = yaml.load(dataFile);
 ```
 
 ## Access the data structure with [ ] notation, the dot notation won't work
-// This works
 ```javascript
+// This works
 WriteDump( data["name"] );
 // This will throw error
 WriteDump( data.name );
